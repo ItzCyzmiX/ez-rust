@@ -6,9 +6,14 @@ pub fn get_input(msg: &str) -> String {
 
     println!("{msg}");
 
-    io::stdin().read_line(&mut input)
-               .expect("Error while reading input!");
-    
+
+    match io::stdin().read_line(&mut input) {
+        Ok(_) => {}
+        Err(error) => { 
+            println!("error: {error}") 
+        },
+    }
+
     return String::from(input.trim());
 }
 

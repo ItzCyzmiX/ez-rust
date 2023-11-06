@@ -1,14 +1,9 @@
 mod ez;
 
-use ez::io::Colors;
+use ez::io::get_input;
 
 fn main() {
+    let input: String = get_input("Hello World!");
 
-    println!(
-        "{}{}Hello{}dd", 
-        
-        Colors::bg_red(),
-        Colors::fg_white(), 
-        Colors::fg_reset()
-    );
+    println!("{input}")
 }
