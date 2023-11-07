@@ -2,4 +2,6 @@ mod ez;
 
 
 
-fn main() {}
+fn main() {
+    
+}
