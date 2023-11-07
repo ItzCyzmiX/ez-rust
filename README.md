@@ -72,7 +72,7 @@ writing to a file using `ez_rust::fs`:
 use ez_rust::fs
 
 fn main() {
-    let err: String = fs::write_file("path/to/file.txt", "hello");
+    let err: bool = fs::write_file("path/to/file.txt", "hello");
     /* err is a boolean wich will be true if an error occcurd while writing to the file */
 }
 ```
@@ -82,7 +82,7 @@ creating a file using `ez_rust::fs`:
 use ez_rust::fs
 
 fn main() {
-    let err: String = fs::create_file("path/to/file.txt", "hello");
+    let err: bool = fs::create_file("path/to/file.txt", "hello");
     /* err is a boolean wich will be true if an error occcurd while creating to the file */
 }
 ```
@@ -92,7 +92,7 @@ creating and writing to a file using `ez_rust::fs`:
 use ez_rust::fs
 
 fn main() {
-    let err: String = fs::create_file_write("path/to/file.txt", "hello");
+    let err: bool = fs::create_file_write("path/to/file.txt", "hello");
     /* err is a boolean wich will be true if an error occcurd while creating or writing to the file */
 }
 ```
