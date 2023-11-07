@@ -1,7 +1,0 @@
-mod ez;
-
-
-
-fn main() {
-    
-}
