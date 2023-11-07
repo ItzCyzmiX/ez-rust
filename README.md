@@ -1,18 +1,20 @@
 # ez-rust
 ez to use utility functions for rust
 
-
+---
 # Instalation
 using cargo:
 ```bash
 cargo add ez-rust
 ```
-or manually by adding `ez-rust = "0.1.1"` to the dependencies in the `Cargo.toml` file
+or manually by adding `ez-rust = "0.1.6"` to the dependencies in the `Cargo.toml` file
 
-# Utils
+---
+# Documentation
+
 ## IO
 ### Input
-to get input using the `ez::io` module use the `get_input()` function
+to get input using the `ez_rust::io` module use the `get_input()` function
 
 Example:
 ```rust
@@ -25,7 +27,7 @@ fn main() {
 }
 ```
 ### Colors
-to style the output on the terminal we use the `ez::io::Colors` struct that contains easy to use function for styling
+to style the output on the terminal we use the `ez_rust::io::Colors` struct that contains easy to use function for styling
 
 Example:
 ```rust
