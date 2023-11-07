@@ -5,7 +5,7 @@ edition = "2021"
 license = "MIT"
 description = "ez to use rust utils"
 repository = "https://github.com/CyzmiX/ez-rust.git"
-
+exclude = ["target", "target/*"]
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
