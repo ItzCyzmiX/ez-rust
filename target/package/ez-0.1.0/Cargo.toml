@@ -13,6 +13,9 @@
 edition = "2021"
 name = "ez"
 version = "0.1.0"
+description = "ez to use rust utils"
 readme = "README.md"
+license = "MIT"
+repository = "https://github.com/CyzmiX/ez-rust.git"
 
 [dependencies]
