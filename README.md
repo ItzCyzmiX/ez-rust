@@ -16,7 +16,7 @@ to get input using the `ez::io` module use the `get_input()` function
 
 Example:
 ```rust
-use ez::io
+use ez_rust::io
 
 fn main() {
     let name: String = io::get_input("Whats your name?");   
@@ -29,7 +29,7 @@ to style the output on the terminal we use the `ez::io::Colors` struct that cont
 
 Example:
 ```rust
-use ez::io::Colors
+use ez_rust::io::Colors
 
 fn main() {
     
@@ -57,9 +57,9 @@ Here is a list of all bg colors and fg colors:
 the `bg_reset()` and `fg_reset()` reset the bg and the fg colors to default respectively
 ## FS
 ### Read
-reading a file using `ez::fs`:
+reading a file using `ez_rust::fs`:
 ```rust
-use ez::fs
+use ez_rust::fs
 
 fn main() {
     let file: String = fs::read_file("path/to/file.txt");
@@ -67,9 +67,9 @@ fn main() {
 ```
 
 ### Write
-writing to a file using `ez::fs`:
+writing to a file using `ez_rust::fs`:
 ```rust
-use ez::fs
+use ez_rust::fs
 
 fn main() {
     let err: String = fs::write_file("path/to/file.txt", "hello");
@@ -77,9 +77,9 @@ fn main() {
 }
 ```
 ### Create
-creating a file using `ez::fs`:
+creating a file using `ez_rust::fs`:
 ```rust
-use ez::fs
+use ez_rust::fs
 
 fn main() {
     let err: String = fs::create_file("path/to/file.txt", "hello");
@@ -87,9 +87,9 @@ fn main() {
 }
 ```
 ### Create and Write
-creating and writing to a file using `ez::fs`:
+creating and writing to a file using `ez_rust::fs`:
 ```rust
-use ez::fs
+use ez_rust::fs
 
 fn main() {
     let err: String = fs::create_file_write("path/to/file.txt", "hello");
