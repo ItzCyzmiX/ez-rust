@@ -1,6 +1,9 @@
 # ez-rust
 ez to use utility functions for rust
 
+# NOTE!
+**Use version 0.1.6! All the other versions will not work!**
+
 ---
 # Instalation
 using cargo:
