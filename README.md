@@ -81,6 +81,18 @@ fn main() {
     /* err is a boolean wich will be true if an error occcurd while writing to the file */
 }
 ```
+
+### Append
+appending to a file using `ez_rust::fs`:
+```rust
+use ez_rust::fs
+
+fn main() {
+    let err: bool = fs::append_file("path/to/file.txt", "hello");
+    /* err is a boolean wich will be true if an error occcurd while writing to the file */
+}
+```
+
 ### Create
 creating a file using `ez_rust::fs`:
 ```rust
